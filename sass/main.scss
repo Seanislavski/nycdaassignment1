@@ -1,0 +1,126 @@
+@import "partials/colors";
+@import "partials/fonts";
+@import "partials/functions";
+
+body{
+	background: $ablue;
+}
+
+.head{
+	height: 150px;
+	margin: 0px;
+	padding: 0;
+	color: $ared;
+	text-shadow: 3px 3px black;
+	font-family: Lobster;
+	line-height: 10px;
+	display: flex;
+	justify-content: space-around;
+	align-items: flex-end;
+	
+	flex-flow: column nowrap;
+}
+
+.nav{
+	font-family: Playfair Display;
+
+	ul{
+		border-radius: 3px;
+		background: $aviolet;
+		display: flex;	
+		flex-flow: row nowrap;
+		justify-content: space-around;
+		align-items: center;
+		padding: 0;
+		margin: 0;
+
+		li{
+			list-style: none;
+			padding: 5px;
+
+			a{
+				align-items: baseline;
+				margin: 0;
+				padding: 10px;
+				text-decoration: none;
+				color: $apurple;
+			}
+
+			a:hover{
+				color: $ateal;
+				background: $ablue;
+			}		
+		}
+	}
+} // end Nav
+
+.content {
+	background: $offwhite2;
+	border-radius: 20px;
+	padding: 0;
+	margin: 10px;
+	font-family: comic_neue_angularBdOb;
+	width: 66%;
+	display: inline-flex;
+	order: 3;
+
+	span{
+		width: 100%;
+		display: inline-flex;
+		flex-flow: column nowrap;
+		line-height: 5px;
+		align-items: center;
+		justify-content: center;
+		line-height: 20px;
+		padding: 10px;
+
+		ul{
+			margin-top: 0;
+			align-self: flex-start;
+		}
+
+		p{
+			align-self: flex-start;
+			text-align: left;
+			text-indent: 30px;
+			margin-top: 3px;
+		}
+		
+		h1, h2, h3, h4{
+			margin: 3px;
+		}
+	
+	}
+}
+
+.testimonials{
+	order: 1;
+	width: 32%;
+	display: inline-flex;
+	flex-flow: column nowrap;
+	flex: 1 1 auto;
+	text-align: right;
+	font-family: lobster;
+	padding-top: 20px;
+	
+	position: absolute;
+	
+	h3{
+		align-self: center;
+		text-decoration: underline;
+	}
+
+	span{
+		background: $offwhite;
+		border-radius: 30px;
+		padding: 10px;
+		margin: 5px;
+			blockquote{
+				margin: 0;
+				padding: 3px;
+				text-align: center;
+			}
+		box-shadow: 10px 10px 10px black;
+		}
+}
+

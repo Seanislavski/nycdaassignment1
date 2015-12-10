@@ -1,0 +1,102 @@
+@import url(https://fonts.googleapis.com/css?family=Lobster);
+@import url(https://fonts.googleapis.com/css?family=Playfair+Display:400,400italic,700,700italic,900,900italic);
+@font-face {
+  font-family: 'comic_neue_angularBdOb';
+  src: url("../font/comicneue-angular_bold_oblique-webfont.eot");
+  src: url("../font/comicneue-angular_bold_oblique-webfont.eot?#iefix") format("embedded-opentype"), url("../font/comicneue-angular_bold_oblique-webfont.woff2") format("woff2"), url("../font/comicneue-angular_bold_oblique-webfont.woff") format("woff"), url("../font/comicneue-angular_bold_oblique-webfont.ttf") format("truetype"), url("../font/comicneue-angular_bold_oblique-webfont.svg#comic_neue_angularBdOb") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+body {
+  background: #5070FF; }
+
+.head {
+  height: 150px;
+  margin: 0px;
+  padding: 0;
+  color: #ff5339;
+  text-shadow: 3px 3px black;
+  font-family: Lobster;
+  line-height: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  flex-flow: column nowrap; }
+
+.nav {
+  font-family: Playfair Display; }
+  .nav ul {
+    border-radius: 3px;
+    background: #8B4DE8;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0;
+    margin: 0; }
+    .nav ul li {
+      list-style: none;
+      padding: 5px; }
+      .nav ul li a {
+        align-items: baseline;
+        margin: 0;
+        padding: 10px;
+        text-decoration: none;
+        color: #512252; }
+      .nav ul li a:hover {
+        color: #39FFBB;
+        background: #5070FF; }
+
+.content {
+  background: #B7ECEA;
+  border-radius: 20px;
+  padding: 0;
+  margin: 10px;
+  font-family: comic_neue_angularBdOb;
+  width: 66%;
+  display: inline-flex;
+  order: 3; }
+  .content span {
+    width: 100%;
+    display: inline-flex;
+    flex-flow: column nowrap;
+    line-height: 5px;
+    align-items: center;
+    justify-content: center;
+    line-height: 20px;
+    padding: 10px; }
+    .content span ul {
+      margin-top: 0;
+      align-self: flex-start; }
+    .content span p {
+      align-self: flex-start;
+      text-align: left;
+      text-indent: 30px;
+      margin-top: 3px; }
+    .content span h1, .content span h2, .content span h3, .content span h4 {
+      margin: 3px; }
+
+.testimonials {
+  order: 1;
+  width: 32%;
+  display: inline-flex;
+  flex-flow: column nowrap;
+  flex: 1 1 auto;
+  text-align: right;
+  font-family: lobster;
+  padding-top: 20px;
+  position: absolute; }
+  .testimonials h3 {
+    align-self: center;
+    text-decoration: underline; }
+  .testimonials span {
+    background: #E3DEBC;
+    border-radius: 30px;
+    padding: 10px;
+    margin: 5px;
+    box-shadow: 10px 10px 10px black; }
+    .testimonials span blockquote {
+      margin: 0;
+      padding: 3px;
+      text-align: center; }
+
+/*# sourceMappingURL=main.css.map */
